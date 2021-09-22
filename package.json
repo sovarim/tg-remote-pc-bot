@@ -1,0 +1,17 @@
+{
+  "name": "tg-remote-pc-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for remote access to computer files ",
+  "main": "index.js",
+  "author": "Abdul-Gafur",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
